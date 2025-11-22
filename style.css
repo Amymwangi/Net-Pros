@@ -12,6 +12,7 @@
  }
 
  h1 {
+    color: #000000;
     text-align: center;
     align-self: start;
     font-size: 3em;
@@ -20,7 +21,7 @@
 
  .nav {
     position: fixed;
-    top: 0;
+    top: -0;
     display: flex;
     justify-content:space-around;
     width: 100%;
@@ -237,7 +238,7 @@ header{
 
     .nav-menu {
         position: absolute;
-        top: 800px;
+        top: 1000px;
         display: flex;
         justify-content: center;
         background: rgba(67, 67, 67, 0.2);
