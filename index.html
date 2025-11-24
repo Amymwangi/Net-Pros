@@ -36,6 +36,47 @@
         <h2>About</h2>
         <p>Net Pros is inspired by my sister and i we play tennis together and it inspired me to make a website about tennis where you can trac your progress and learn some tips. tennis is a racket sport that can be played by two people or two teams of two. tennis is an olympic sport and hobby that  can be played by anyone as long as they can hold the racket. the game originated in Birmingham England in the late 19th century, it had close connections such as croquetand bowls as well to some older racket sports. today it is called real tennis. the mordern tennis rules have changed since the 1890s.one exepction is that until 1961 the serverr has to keep on foot on the ground at all times. as John Mcenroe said: the important thigg is to learn evrytime you loose. and as rodger fedder said: when you do something best in life you dont want to give that up </p>
       </div>
+
+    <script>
+      const aboutSection = document.getElementById("about");
+      const progressSection = document.getElementById("progress");
+      const tipsSection = document.getElementById("tips");
+
+      function toggleAbout() {
+        progressSection.style.display = "none";
+        tipsSection.style.display = "none";
+        if (aboutSection.style.display === "none" || aboutSection.style.display === "") {
+          aboutSection.style.display = "block";
+          aboutSection.scrollIntoView({ behavior: "(smooth)" });
+        } else {
+          aboutSection.style.display = "none";
+        }
+      }
+
+      function toggleProgress() {
+        aboutSection.style.display = "none";
+        tipsSection.style.display = "none";
+        if( progressSection.style.display === "none" || progressSection.style.display === "") {
+          progressSection.style.display = "block";
+          progressSection. scrollIntoView({behavior: "(smooth)" });
+        } else {
+          progressSection.style.display = "none";
+        }
+      }
+
+      function toggleTips() {
+        aboutSection.style.display = "none";
+        progressSection.style.display = "none";
+        if( tipsSection.style.display === "none" || tipsSection.style.display === "") {
+          tipsSection.style.display = "block";
+          tipsSection.scrollIntoView({behavior: "(smooth)"});
+        } else {
+        tipsSection.style.display = "none";
+        }
+      }
+      
+    </script>
+
 </body>
 <body><img src="file:///C:/Users/san/OneDrive/Desktop/my website/imgs/playing2.jpg" width="1000"></body>
 <body><img src="file:///C:/Users/san/OneDrive/Desktop/my%20website/imgs/tennis court.jpeg" width="1000"></body>
@@ -45,3 +86,4 @@
 
 
 </html>
+  
