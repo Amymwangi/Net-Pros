@@ -32,7 +32,7 @@
  }
 
  .nav-logo p {
-    color: #fff;
+    color: #080808;
     font-size: 25px;
     font-weight: 600;
     
@@ -318,5 +318,204 @@ header{
         background: #ff5722;
     }
 
-    
+
 }
+
+ 
+.about-section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #ffd6e0 0%, #ffe9ec 100%);
+  font-family: 'Poppins', sans-serif;
+  position: relative; 
+}
+
+.about-container {
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.9);
+  border-left: 5px solid #ff4f81;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  position: relative;
+}
+
+.about-container h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #ff4f81;
+}
+
+.about-container p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.history-section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #c3f8ff 0%, #a0e7e5 100%); 
+  font-family: 'Poppins', sans-serif;
+}
+
+.history-container {
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.9);
+  border-left: 5px solid #009ab2;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  position: relative;
+}
+
+.history-container h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #00b4d8; 
+}
+
+.history-container p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+}
+.history-container::before {
+  content: "🐶";
+  font-size: 2rem;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.history-container::after {
+  content: "🐱";
+  font-size: 2rem;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+
+.tips-section {
+  width: 100%;
+  min-height: 100vh;
+  bottom: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #fffcc3 0%, #e7e3a0 100%); 
+  font-family: 'Poppins', sans-serif;
+}
+
+.tips-container {
+  max-width: 800px;
+  background: rgba(254, 255, 239, 0.9);
+  border-left: 5px solid #ffd735;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  position: relative;
+}
+
+.tips-container h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #fff350; 
+}
+
+.tips-container p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+ 
+ .home-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .home-content {
+    background: #f390ed;
+    backdrop-filter: blur(8px);
+    padding: 50px;
+    border-radius: 25px;
+    max-width: 700px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.02);
+ }
+
+ .home-content h1 {
+    font-size: 2.5rem;
+    color: #f2c3f3;
+ }
+
+ .home-content p {
+    font-size: 1.2rem;
+    margin: 15px 0 30px;
+    color: #90feec;
+ }
+
+ .home-btn {
+    background: #a7f3dc;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+ }
+
+ .home-btn:hover{
+    background: #b2f8d5;
+ }
+
+ .tips-section{
+    width: 100%;
+    min-height: 100vh;
+    bottom: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #a9f3df, 0%, #7cecda, 100% );
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .tips-container{
+    max-width: 800px;
+    background: rgba(175, 248, 215, 0.9);
+    border-left: 5px solid #90fee8;
+    padding: 40px;
+    border-left: 5px soild #f2d1ef;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+ }
+
+ .tips-container h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #7cecda;
+ }
